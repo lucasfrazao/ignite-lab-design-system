@@ -34,7 +34,7 @@ export function SignIn() {
         </Heading>
 
         <Text size="lg" className="text-gray-400 mt-1">
-          Faça login e comece a usar.
+          Sign in or create an account
         </Text>
       </header>
 
@@ -42,10 +42,10 @@ export function SignIn() {
         onSubmit={handleSignIn}
         className="flex flex-col gap-4 items-stretch w-full max-w-sm mt-10"
       >
-        {isUserLoggedIn && <Text>Login realizado!</Text>}
+        {isUserLoggedIn && <Text>You're logged in!</Text>}
 
         <label htmlFor="email" className="flex flex-col gap-3">
-          <Text className="font-semibold">Endereço de e-mail</Text>
+          <Text className="font-semibold">Email address</Text>
           <TextInput.Root>
             <TextInput.Icon>
               <Envelope />
@@ -53,13 +53,13 @@ export function SignIn() {
             <TextInput.Input
               type="email"
               id="email"
-              placeholder="Digite seu e-mail"
+              placeholder="Enter your email"
             />
           </TextInput.Root>
         </label>
 
         <label htmlFor="password" className="flex flex-col gap-3">
-          <Text className="font-semibold">Sua senha</Text>
+          <Text className="font-semibold">Your password</Text>
           <TextInput.Root>
             <TextInput.Icon>
               <Lock />
@@ -75,25 +75,25 @@ export function SignIn() {
         <label htmlFor="remember" className="flex items-center gap-2">
           <Checkbox id="remember" />
           <Text size="sm" className="text-gray-200">
-            Lembrar de mim por 30 dias
+            Remember for 30 days
           </Text>
         </label>
 
         <Button type="submit" className="mt-4">
-          Entrar na plataforma
+          Enter on website
         </Button>
       </form>
 
       <footer className="flex flex-col items-center gap-4 mt-8">
         <Text asChild size="sm">
           <a href="" className="text-gray-400 underline hover:text-gray-200">
-            Esqueceu sua senha?
+            Forgot password
           </a>
         </Text>
 
         <Text asChild size="sm">
           <a href="" className="text-gray-400 underline hover:text-gray-200">
-            Não possui conta? Crie uma agora!
+            Don't have an account? Sign up for free
           </a>
         </Text>
       </footer>
