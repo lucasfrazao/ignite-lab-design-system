@@ -1,0 +1,2 @@
+import{B as t}from"./Button.bd4519b6.js";import"./clsx.m.256e9345.js";import"./index.module.8a6e8082.js";import"./index.4e3a2f7f.js";import"./iframe.b39f9e00.js";import"./jsx-runtime.ceed194c.js";const s={title:"Components/Button",component:t,args:{children:"Lorem ipsum."},argTypes:{}},i={},a=["Default"];export{i as Default,a as __namedExportsOrder,s as default};
+//# sourceMappingURL=Button.stories.5cf4c0d1.js.map
